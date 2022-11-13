@@ -8,8 +8,8 @@ import java.awt.event.*;
 public class Panel extends JPanel implements ActionListener
 {
 	//Variabels declaration
-	Image X = new ImageIcon("RedX.png").getImage();
-	Image O = new ImageIcon("RedO.png").getImage();
+	Image X = new ImageIcon("D:\\Github local repositories\\Tic tac toe\\Tic Tac Toe\\photos\\RedX.png").getImage();
+	Image O = new ImageIcon("D:\\Github local repositories\\Tic tac toe\\Tic Tac Toe\\photos\\RedO.png").getImage();
 	
 	JButton[] myButton = new JButton[9]; //Allocate memory for 9 JButtons
 	int p ; //Player's id that is his turn
